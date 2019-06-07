@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    SOLUTION: .\CSharpHelloWorld.sln
+    SOLUTION: .\EBTestApplication.sln
     PACKAGE_DIRECTORY: .\packages
     DOTNET_FRAMEWORK: 4.6.2
 

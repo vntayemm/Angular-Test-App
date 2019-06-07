@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'For Codebuild r3';
+  title = 'For Codebuild r4 TEST';
 }

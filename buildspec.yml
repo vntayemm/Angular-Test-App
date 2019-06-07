@@ -19,7 +19,7 @@ phases:
     post_build:
         commands:
         # Copy dist folder to S3 bucket, As of Angular 6, builds are stored inside an app folder in distribution and not at the root of the dist folder
-        - aws s3 cp dist s3://${S3_BUCKET}/${APP_NAME} --recursive
+        - aws s3 sync ./dist/my-first-app s3://${S3_BUCKET} --acl 'public-read' --delete
 
 artifacts:
   files:

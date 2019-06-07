@@ -4,7 +4,6 @@ env:
     variables:
         S3_BUCKET: "codepipeline-us-east-1-840425570419"
         APP_NAME: "AngularProject"
-
 phases:
     pre_build:
         commands:

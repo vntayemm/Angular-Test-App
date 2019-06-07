@@ -1,1 +1,16 @@
-node_modules
+
+*.user
+**/.vs/
+**/packages/
+**/node_modules/
+**/temp/
+**/dist/
+*.log
+.vscode/
+*.cache
+**/log/
+**/obj/
+**/bin/
+*.dll
+
+

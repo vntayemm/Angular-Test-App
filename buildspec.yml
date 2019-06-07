@@ -7,10 +7,9 @@ env:
 
 phases:
     pre_build:
-    commands:
-        - echo executing pre-build Phase
+        commands:
         - npm install
-         - npm install global @angular/cli@6.0.8
+        - npm install global @angular/cli@6.0.8
 
     build:
         commands:

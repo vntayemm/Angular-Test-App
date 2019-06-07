@@ -25,4 +25,4 @@ post_build:
 artifacts:
   files:
     - '**/*'
-  base-directory:'dist/
+  base-directory:'dist/my-first-app'

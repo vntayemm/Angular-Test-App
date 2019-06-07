@@ -8,12 +8,13 @@ env:
 phases:
     pre_build:
         commands:
+        - cd Web
         - npm install
         - npm install global @angular/cli@6.0.8
 
     build:
         commands:
-        - echo executing Build Phase
+        - cd Web
         - npm run build
 
 artifacts:

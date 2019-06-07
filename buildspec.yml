@@ -6,8 +6,8 @@ env:
         APP_NAME: "AngularProject"
 
 phases:
-    pre-build:
-        commands:
+    pre_build:
+    commands:
         - echo executing pre-build Phase
         - npm install
          - npm install global @angular/cli@6.0.8
@@ -17,7 +17,7 @@ phases:
         - echo executing Build Phase
         - npm run build
 
-post_build:
+    post_build:
         commands:
         # Copy dist folder to S3 bucket, As of Angular 6, builds are stored inside an app folder in distribution and not at the root of the dist folder
         - aws s3 cp dist s3://${S3_BUCKET}/${APP_NAME} --recursive

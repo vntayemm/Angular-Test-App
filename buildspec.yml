@@ -28,4 +28,4 @@ artifacts:
     - '**/*.css'
     - '**/*.ico'
   discard-paths: yes
-  base-directory: 'dist/angular-devops'
+  base-directory: 'dist/my-first-app'

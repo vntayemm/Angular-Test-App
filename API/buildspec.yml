@@ -16,4 +16,4 @@ artifacts:
     files:
         - '**/*'
     discard-paths: yes
-    base-directory: 'API/EBTestApplication/bin**'      
+    base-directory: 'API/EBTestApplication/bin*'      

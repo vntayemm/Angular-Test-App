@@ -1,10 +1,10 @@
-rsion: 0.2
+version: 0.2
 
 env:
   variables:
     SOLUTION: .\CSharpHelloWorld.sln
     PACKAGE_DIRECTORY: .\packages
-    DOTNET_FRAMEWORK: 4.6.2
+    DOTNET_FRAMEWORK: 4.6.1
 
 phases:
   build:

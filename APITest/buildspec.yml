@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    SOLUTION: .\CSharpHelloWorld.sln
+    SOLUTION: .\WebApplication1.sln
     PACKAGE_DIRECTORY: .\packages
     DOTNET_FRAMEWORK: 4.6.1
 
@@ -17,4 +17,4 @@ artifacts:
     files:
         - '**/*'
     discard-paths: yes
-    base-directory: 'APITest/CSharpHelloWorld/bin*'      
+    base-directory: 'APITest/WebApplication1/bin*'      
